@@ -9,6 +9,16 @@ Lecture 2
 # Call expressions -> See lecture 1 notes 
 # Environment -> Sequence of frames(Binding between names and values)
 Name evaluates to value bound to name in earliest frame of current environment which name is found.
+A function thats does not explicitly return a value will return none
+
+Lecture 3
+--------------------
+Return statement - completes evaluation of call expression and provides its value
+
+Functions domain is the set of all inputs it might take as arguements
+Functions range is the set of all output values it might return
 
 
+Lecture 4
+-------------------
 
