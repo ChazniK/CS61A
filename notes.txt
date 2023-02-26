@@ -1,0 +1,14 @@
+Lecture 1
+--------------------
+Expression: computation and evaluates to a value
+Call expression add -> operator (2, 3) -> operand	(operators and operands are also expressions)
+ 
+Lecture 2
+--------------------
+# Primitive expressions -> number(2), name(add), string('hello')
+# Call expressions -> See lecture 1 notes 
+# Environment -> Sequence of frames(Binding between names and values)
+Name evaluates to value bound to name in earliest frame of current environment which name is found.
+
+
+
