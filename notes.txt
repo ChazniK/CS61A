@@ -21,4 +21,4 @@ Functions range is the set of all output values it might return
 
 Lecture 4
 -------------------
-
+Higher order functions: Allow to generalive patterns with arguments
