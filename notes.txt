@@ -21,3 +21,4 @@ Functions range is the set of all output values it might return
 
 Lecture 4
 -------------------
+Higher Order Functions
