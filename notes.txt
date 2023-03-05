@@ -21,4 +21,4 @@ Functions range is the set of all output values it might return
 
 Lecture 4
 -------------------
-Higher Order Functions
+Higher Order Functions - function that takes another function as an arguement
