@@ -105,6 +105,7 @@ def compose1(func1, func2):
     def f(x):
         return func1(func2(x))
     return f
+
 def make_repeater(func, n):
     """Return the function that computes the nth application of func.
 
@@ -120,7 +121,11 @@ def make_repeater(func, n):
     >>> make_repeater(square, 0)(5) # Yes, it makes sense to apply the function zero times!
     5
     """
-    "*** YOUR CODE HERE ***"
+    def repeat(result):
+        for i in range(n):
+            result = func(result)
+        return result
+    return repeat
 
 
 def zero(f):
@@ -131,7 +136,7 @@ def successor(n):
 
 def one(f):
     """Church numeral 1: same as successor(zero)"""
-    "*** YOUR CODE HERE ***"
+
 
 def two(f):
     """Church numeral 2: same as successor(successor(zero))"""
